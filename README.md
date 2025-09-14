@@ -2,6 +2,7 @@
 Exploratory Data Analysis (EDA) of Ajio e-commerce dataset using Python. Includes data cleaning, preprocessing, visualization, and business insights on sales trends, returns, discounts, brands, and customer behavior.
 
 Notebook Link: https://colab.research.google.com/drive/1uaLeqfGB_P7EJAP07ElTmn5HoBTECBxX#scrollTo=E0cEh_Dv0AHn
+
 **Problem Statement**
 Ajio is one of India’s leading fashion and lifestyle e-commerce platforms. The business challenge is to understand customer behavior, sales trends, product returns, and discounting patterns to drive data-informed decisions.
 
