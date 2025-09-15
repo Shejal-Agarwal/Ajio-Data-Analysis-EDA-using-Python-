@@ -51,11 +51,11 @@ df['Discount_Percentage'] = ((df['Price'] - df['Final_Price']) / df['Price']) * 
 
 **Return Rate (by Category/Brand)**
 
-return_rate = (df.groupby('Category')['Returned'].mean()) * 100
+return_rate = (df.groupby('Category')['RT_ID'].mean()) * 100
 
 **Revenue Contribution per Brand**
 
-revenue = df.groupby('Brand')['Final_Price'].sum()
+revenue = df.groupby('Brand_Name')['Final_Price'].sum()
 
 **Step 6**: Performed Exploratory Data Analysis (EDA) with visualizations:
 
